@@ -23,7 +23,7 @@ const UniPayment = () => {
   // 獲取初始化選項
   const getInitOption = () => {
     return {
-      env: "S",
+      env: "P",
       useInst: useInst,
       elements: {
         CardNo: "put_card_no",
